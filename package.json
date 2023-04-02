@@ -1,0 +1,24 @@
+{
+  "name": "avalon",
+  "version": "1.0.0",
+  "description": "API de cadastro de itens",
+  "main": "src/index.js",
+  "author": "Fabricio Dias",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "pool": "^0.4.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.20"
+  }
+}
